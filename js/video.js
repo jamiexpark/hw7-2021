@@ -68,12 +68,6 @@ document.querySelector("#faster").addEventListener("click", function() {
 	console.log(video.playbackRate);
 });
 
-
-
-
-
-
-
 document.querySelector("#orig").addEventListener("click", function(){
 	video.classList.remove("oldSchool");
 });
@@ -82,6 +76,3 @@ document.querySelector("#vintage").addEventListener("click", function(){
 	video.classList.add("oldSchool");
 });s
 
-// document.querySelector("#play").addEventListener("click", function() {
-// 	console.log("Play Video");
-// });
